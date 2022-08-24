@@ -1,0 +1,119 @@
+﻿body {
+    background-image: url("/img/cloud.jpg");
+    background-color: cornflowerblue;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: black;
+/*    overflow: hidden;*/
+    background-repeat: no-repeat;
+    margin-bottom: 560px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.sun {
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rain {
+    background-color: #2196F3;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.gloom {
+    background-color: darkcyan;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.wind {
+    background-color: #04AA6D;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.hot {
+    background-color: greenyellow;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.paragraph {
+    margin: 200px;
+}
+#paragraph1 {
+    border-radius: 25px;
+    background: #73AD21;
+    width: 400px;
+    height: 275px;
+    padding: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    font-size:25px;
+    float: left;
+}
+
+#paragraph2 {
+    border-radius: 25px;
+    background: pink;
+    width: 400px;
+    height: 275px;
+    padding: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-left: 150px;
+}
+
+#paragraph3 {
+    border-radius: 25px;
+    background: #fffacd;
+    width: 400px;
+    height: 275px;
+    padding: 50px;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-left: 150px;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%;
+    }
+}
