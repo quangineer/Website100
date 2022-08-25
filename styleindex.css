@@ -8,7 +8,7 @@
     /*    overflow: hidden;*/
     background-repeat: no-repeat;
 /*        margin-bottom: 560px;*/
-    margin: 150px 200px 200px 200px;
+/*    margin: 150px;*/
 }
 
 
@@ -123,4 +123,59 @@
     .sun, .rain, .gloom, .wind, .hot {
         width: 100%;
     }
+}
+
+.footer-container {
+    display: flex;
+    align-items: stretch;
+/*    background-color: darkorange;*/
+/*    border: 1px solid blue;*/
+    height: 135px;
+}
+
+.footer-container > div {
+    background-color:greenyellow;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 26px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-discord {
+    background: #dd4b39;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-roblox {
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
