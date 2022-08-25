@@ -75,62 +75,52 @@
 
 .paragraph {
     margin: 200px;
-    margin-left: 0;
-    box-sizing: border-box;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
     height: 195px;
 }
 
+.paragraph1, .paragraph2, .paragraph3 {
+    border-radius: 25px;
+}
 
 .paragraph1 {
-    border-radius: 25px;
     background: #73AD21;
-    width: 200px;
-    height: 175px;
+    width: 205px;
+    height: 205px;
     border: 1px solid blue;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    float: left;
-    width: 25%;
-    margin: 5px 25px 5px 0;
-    font-size: 21px;
+    margin: 10px;
+    font-size: 18px;
+    overflow: hidden;
 }
 
 .paragraph2 {
-    border-radius: 25px;
     background: pink;
-    width: 200px;
-    height: 175px;
+    width: 205px;
+    height: 205px;
     border: 1px solid blue;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    float: left;
-    margin: 5px 150px 5px 180px;
-    width: 25%;
-    font-size: 21px;
+    margin: 10px;
+    font-size: 18px;
+    overflow: hidden;
 }
 
 .paragraph3 {
-    border-radius: 25px;
     background: #fffacd;
-    width: 200px;
-    height: 175px;
+    width: 205px;
+    height: 205px;
     border: 1px solid blue;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    float: right;
-    margin: 5px 0;
-    width: 25%;
-    font-size: 21px;
+    margin: 10px;
+    font-size: 18px;
+    overflow: hidden;
 }
 @media screen and (max-width: 800px) {
     .sun, .rain, .gloom, .wind, .hot {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .paragraph1, .paragraph2, .paragraph3 {
         width: 100%;
     }
 }
